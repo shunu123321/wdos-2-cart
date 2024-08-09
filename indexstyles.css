@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #32776b;
+}
+
+.header1 {
+    background-color: #7C9D96;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul {
+    list-style: none;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+      
+}
+
+main {
+    padding: 40px;
+}
+
+
+#products {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.product img {
+    max-width: 60%;
+}
+
+.carousel-container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 2px;
+    
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    margin-top: 10px;
+    
+    
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.carousel img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+footer {
+    background-color: #5784e4;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.m-topic{
+    color: #fff;
+}
+button{
+    background-color: #0b7a86;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    border: #0b7a86;
+    color: #fff;
+}
+button:active{
+    background-color: #111827;
+}
+.logo-align {
+    display: flex;
+    align-items: center;
+}
+
+.logo-align img {
+    margin-right: 10px;
+}
+.mission{
+    margin: auto;
+    width: 100%;
+    border: 1px;
+    padding: 10px;
+    background-color: #7C9D96;
+    border-radius: 10px;
+
+  }
+.mission:hover{
+    background-color: #87acec;
+    transform: scale(1.03);
+    display: flex;
+    align-items: center;
+}
+.logo-align {
+    display: flex;
+    align-items: center;
+}
+
+.logo-align img {
+    margin-right: 10px;
+}
+.mission {
+    text-align: center;
+}
+
+.mission h2 {
+    text-align: center;
+}
+
+.mission p {
+    text-align: center;
+}
+
+.mission ul {
+    text-align: center;
+}
+.about-us{
+    text-align: left;
+}
+.border{
+    align-items: center;
+}
+h2 {
+    color: #fff;
+}
+table {
+    margin-top: 0;
+}
+.table-align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.smarket-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.branch-size{
+    height: 250px;
+    width: 400px;
+}
+.list-box{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.list{
+    background-color: #0b7a86;
+    width: 40%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.container-footer{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+
+
+@media (max-width: 768px) {
+    .header1{
+        padding: 10px;
+        text-align: center;
+    }
+
+    nav ul {
+        padding: 5px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    #products {
+        gap: 10px;
+    }
+
+    .product {
+        padding: 5px;
+    }
+
+    .carousel-item {
+        flex: 0 0 100%;
+    }
+
+    button {
+        width: 80px;
+        height: 25px;
+    }
+
+    footer {
+        padding: 5px 0;
+    }
+
+    .table-align {
+        height:auto;
+        flex-direction: column;
+    }
+}
